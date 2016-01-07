@@ -152,7 +152,7 @@ ul {
 #signup_area {
   background-color: #f9e42e;
   padding: 15px;
-} 
+}
 
 .signup_button {
   font-weight: 800;
@@ -181,7 +181,7 @@ footer {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    height: 20px; 
+    height: 20px;
     padding: 0px 10px;
 }
 
@@ -192,3 +192,8 @@ footer {
   font-weight: 600;
   padding: 40px 0px;
 }
+
+/* ND:Your indenting here looks great! Everything is spaced correctly and the code was easy to read */
+/* ND:Seems like you have a good grasp on ids and classes. I'd encourage you to use classes more
+than ids when working on larger projects so you can reuse your styles*/
+/*ND: Did you have trouble with floats or width? Notice you don't include columns. Swing by during office hours if you need help.*/
