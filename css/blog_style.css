@@ -47,41 +47,27 @@ Developer @GA in DC
 
 body {
      font-family: 'Open Sans', sans-serif;
-     margin: 0px 100px;
-}
-
-#container {
-  width: 100%;
-  margin: auto;
-  height: 500px;
+     margin: auto;
+     background-color:#f0efef;
+     width: 960px
 }
 
 header {
-  padding: 20px 70px 200px 70px;
-  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-  background-size: cover;
-  height:400px;
+  padding: 50px;
+  background-color: #033048;
 }
 
 .relaxr {
   color:#FFF;
   font-weight: 800;
-  font-size: 24px;
-  padding-bottom: 40px;
+  font-size: 30px;
+  float: left;
 }
 
 .yellow {
   color: #f9e42e;
   text-align: center;
   padding-top: 20px;
-}
-
-h1.intro {
-  font-size: 24px;
-  font-weight: 600;
-  color: #FFF;
-  padding-bottom: 40px;
-  text-align: center;
 }
 
 .get_it_button {
@@ -105,12 +91,6 @@ h1.intro {
   width:50%;
 }
 
-h2 {
-  font-size: 20px;
-  font-weight: 600;
-  padding-bottom: 15px;
-}
-
 .benefits_text_intro {
   padding-bottom: 20px;
 }
@@ -119,13 +99,6 @@ h2 {
   font-weight: 300;
   font-size: 13px;
   line-height: 1.5;
-}
-
-ul {
-  font-weight: 300;
-  font-size: 13px;
-  padding-left: 35px;
-  padding-bottom: 20px;
 }
 
 #testimonial_area {
@@ -152,6 +125,7 @@ ul {
 #signup_area {
   background-color: #f9e42e;
   padding: 15px;
+  clear:both;
 } 
 
 .signup_button {
@@ -193,3 +167,119 @@ footer {
   padding: 40px 0px;
   clear: both;
 }
+
+/******************************************
+/* NEW
+/*******************************************/
+
+#blog_all {
+  padding-top: 50px;
+}
+
+.main {
+    width:72%;
+    float:left;
+    padding:10px; 
+}
+
+.sidebar {
+    line-height:30px;
+    width:25%;
+    float:right;
+    padding:5px; 
+    margin-left: 20px;
+}
+
+.blog_post {
+
+}
+
+.sidebar_text {
+  padding-bottom: 50px;
+
+} /* do you need this? actually yes for spacing... */
+
+.read_more_link {
+  float: right;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 30px 0px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #000;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  line-height: 1.25;
+} /* probably need to add class to h1 or think about how h1 on other page was 24px... establish global order...  */
+
+h2 {
+  font-size: 32px;
+  font-weight: 800;
+  padding-bottom: 15px;
+} /* think about h2 on other page  */
+
+h3 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.body_copy {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.25;
+}
+
+.about_body_copy {
+  font-size: 22px;
+  font-weight: 300;
+
+}
+
+nav {
+  float:right;
+}
+
+.main_nav_list {
+  padding: 0px 15px;
+  color: #f9e42e;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  display: inline;
+  list-style: none;
+  font-size: 24px;
+}
+
+.first_character { 
+  float: left; 
+  color: #121212; 
+  font-size: 75px; 
+  line-height: 60px; 
+  font-weight: 600;
+  padding-right: 8px; 
+}
+
+.ad_unit {
+  height: 600px;
+  background-color: #FFF;
+  text-align: center;
+  padding: 30px;
+}
+
+.photo {
+  padding-bottom: 30px;
+}
+
+hr {
+  clear: both;
+}
+
+.learn_more_link {
+  font-size: 22px;
+  font-weight: 600;
+
+}
+
+
