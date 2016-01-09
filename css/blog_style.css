@@ -204,12 +204,13 @@ footer {
   font-size: 24px;
   font-weight: 600;
   padding: 30px 0px;
+  color: #033048;
 }
 
 h1 {
   font-size: 40px;
   font-weight: 600;
-  color: #000;
+  color: #033048;
   padding-bottom: 30px;
   padding-top: 10px;
   line-height: 1.25;
@@ -219,22 +220,26 @@ h2 {
   font-size: 32px;
   font-weight: 800;
   padding-bottom: 15px;
+  color: #033048;
 } /* think about h2 on other page  */
 
 h3 {
   font-size: 36px;
   font-weight: 600;
+  color: #033048;
 }
 
 .body_copy {
   font-size: 24px;
   font-weight: 300;
   line-height: 1.25;
+  color: #606161;
 }
 
 .about_body_copy {
   font-size: 22px;
   font-weight: 300;
+  color: #033048;
 
 }
 
@@ -254,7 +259,7 @@ nav {
 
 .first_character { 
   float: left; 
-  color: #121212; 
+  color: #606161; 
   font-size: 75px; 
   line-height: 60px; 
   font-weight: 600;
@@ -279,6 +284,7 @@ hr {
 .learn_more_link {
   font-size: 22px;
   font-weight: 600;
+  color: #033048;
 
 }
 
