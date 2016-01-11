@@ -17,163 +17,40 @@ Developer @GA in DC
      box-sizing: border-box; /* IE */
 }
 
-/* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
-
-.clear {
-  clear: both;
-}
-
-.alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
-
-.alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
-}
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
 body {
      font-family: 'Open Sans', sans-serif;
      margin: auto;
      background-color:#f0efef;
-     width: 960px
+     width: 1160px
 }
 
 header {
-  padding: 50px;
+  padding: 30px 110px 75px 110px;
   background-color: #033048;
 }
 
 .relaxr {
   color:#FFF;
   font-weight: 800;
-  font-size: 30px;
+  font-size: 40px;
   float: left;
-}
-
-.yellow {
-  color: #f9e42e;
-  text-align: center;
-  padding-top: 20px;
-}
-
-.get_it_button {
-  font-weight: 800;
-  border-radius: 5px;
-  color:#033048;
-  font-size: 14px;
-  background-color: #f9e42e;
-  padding: 10px;
-  width: 150px;
-  text-align: center;
-  margin: auto;
-}
-
-#benefits_area {
-  background-color: #f0efef;
-  padding: 40px 70px 20px 70px;
-}
-
-#benefits_text {
-  width:50%;
-}
-
-.benefits_text_intro {
-  padding-bottom: 20px;
-}
-
-.benefits_text_style {
-  font-weight: 300;
-  font-size: 13px;
-  line-height: 1.5;
-}
-
-#testimonial_area {
-  text-align: center;
-  color:#FFF;
-  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
-  background-size: cover;
-  padding: 75px 200px;
-}
-
-.testimonial_quote {
-  font-weight: 300;
-  font-style: italic;
-  font-size: 18px;
-  line-height: 1.5;
-  padding-bottom: 20px;
-}
-
-.testimonial_attribution {
-  font-weight: 600;
-  font-size: 18px;
-}
-
-#signup_area {
-  background-color: #f9e42e;
-  padding: 15px;
-  clear:both;
-} 
-
-.signup_button {
-  font-weight: 800;
-  border-radius: 5px;
-  color:#FFF;
-  font-size: 12px;
-  background-color: #033048;
-  padding: 10px;
-  text-align: center;
-  width:150px;
-  margin: auto;
-}
-
-footer {
-  background-color: #121212;
-  height:200px;
-  padding: 20px 70px;
-  margin: auto;
-}
-
-#socialmedia {
-  text-align:center;
-}
-
-.icons {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 20px; 
-    padding: 0px 10px;
-}
-
-.copyright {
-  text-align: center;
-  color: #FFF;
-  font-size: 9px;
-  font-weight: 600;
-  padding: 40px 0px;
   clear: both;
 }
 
-/******************************************
-/* NEW
-/*******************************************/
+.yellow {
+  font-weight: 800;
+  font-size: 40px;
+  color: #f9e42e;
+  text-align: center;
+  padding: 20px 0px 40px 0px;
+}
+
+.nav_top {
+  float:right;
+}
 
 #blog_all {
-  padding-top: 50px;
+  padding: 50px 100px;
 }
 
 .main {
@@ -182,22 +59,9 @@ footer {
     padding:10px; 
 }
 
-.sidebar {
-    line-height:30px;
-    width:25%;
-    float:right;
-    padding:5px; 
-    margin-left: 20px;
-}
-
-.blog_post {
-
-}
-
 .sidebar_text {
   padding-bottom: 50px;
-
-} /* do you need this? actually yes for spacing... */
+} 
 
 .read_more_link {
   float: right;
@@ -214,14 +78,14 @@ h1 {
   padding-bottom: 30px;
   padding-top: 10px;
   line-height: 1.25;
-} /* probably need to add class to h1 or think about how h1 on other page was 24px... establish global order...  */
+} 
 
 h2 {
   font-size: 32px;
   font-weight: 800;
   padding-bottom: 15px;
   color: #033048;
-} /* think about h2 on other page  */
+} 
 
 h3 {
   font-size: 36px;
@@ -236,18 +100,7 @@ h3 {
   color: #606161;
 }
 
-.about_body_copy {
-  font-size: 22px;
-  font-weight: 300;
-  color: #033048;
-
-}
-
-nav {
-  float:right;
-}
-
-.main_nav_list {
+.main_nav_list_item {
   padding: 0px 15px;
   color: #f9e42e;
   font-family: 'Open Sans', sans-serif;
@@ -257,6 +110,30 @@ nav {
   font-size: 24px;
 }
 
+.main_nav_link {
+  color: #f9e42e;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.main_nav_list {
+  padding-top: 10px;
+}
+
+a.main_nav_link:hover {
+    color: #FFF;
+}
+
+a.read_more_link:hover {
+    color: #1E7694;
+}
+
+a.learn_more_link:hover {
+    color: #1E7694;
+}
+
 .first_character { 
   float: left; 
   color: #606161; 
@@ -264,13 +141,6 @@ nav {
   line-height: 60px; 
   font-weight: 600;
   padding-right: 8px; 
-}
-
-.ad_unit {
-  height: 600px;
-  background-color: #FFF;
-  text-align: center;
-  padding: 30px;
 }
 
 .photo {
@@ -285,7 +155,77 @@ hr {
   font-size: 22px;
   font-weight: 600;
   color: #033048;
-
 }
 
+.sidebar {
+    line-height:30px;
+    width:25%;
+    float:right;
+    padding:5px; 
+    margin-left: 20px;
+}
+
+.categories {
+  list-style: none;
+  color: #033048;
+}
+
+.about_body_copy {
+  font-size: 22px;
+  font-weight: 300;
+  color: #033048;
+}
+
+.ad_unit {
+  height: 600px;
+  background-color: #FFF;
+  text-align: center;
+  padding: 30px;
+}
+
+#signup_area {
+  background-color: #f9e42e;
+  padding: 30px;
+  clear:both;
+} 
+
+.signup_button {
+  font-weight: 800;
+  border-radius: 5px;
+  color:#FFF;
+  font-size: 16px;
+  background-color: #033048;
+  padding: 15px;
+  text-align: center;
+  width:200px;
+  margin: auto;
+}
+
+footer {
+  background-color: #121212;
+  height:250px;
+  padding: 20px 70px;
+  margin: auto;
+}
+
+.icons {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px; 
+    padding: 0px 10px;
+}
+
+#socialmedia {
+  text-align:center;
+}
+
+.copyright {
+  text-align: center;
+  color: #FFF;
+  font-size: 9px;
+  font-weight: 600;
+  padding: 40px 0px;
+  clear: both;
+}
 
