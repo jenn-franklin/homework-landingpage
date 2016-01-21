@@ -7,16 +7,18 @@ $(document).ready(function() {
 	$('.read_less_link').click(hideContent);
 	$('.learn_more_link').click(showAbout);
 
-
-
 	function showContent() {
 		$('.hidden_content').slideDown();
+		/*$('.hidden_content' , this).slideDown();*/
 		$('.read_more_link').hide();
+		/*$('.read_more_link' , this).hide();*/
 	}
 
 	function hideContent() {
 		$('.hidden_content').slideUp();
+		/*$('.hidden_content' , this).slideUp();*/
 		$('.read_more_link').show();
+		/*$('.read_more_link' , this).show();*/
 	}
 
 	function showAbout() {
