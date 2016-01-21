@@ -37,6 +37,8 @@ header {
   clear: both;
 }
 
+/*ND: nice job using floats here! Looks like you're getting the hang of it.*/
+
 .yellow {
   font-weight: 800;
   font-size: 40px;
@@ -56,12 +58,12 @@ header {
 .main {
     width:72%;
     float:left;
-    padding:10px; 
+    padding:10px;
 }
 
 .sidebar_text {
   padding-bottom: 50px;
-} 
+}
 
 .read_more_link {
   float: right;
@@ -78,14 +80,14 @@ h1 {
   padding-bottom: 30px;
   padding-top: 10px;
   line-height: 1.25;
-} 
+}
 
 h2 {
   font-size: 32px;
   font-weight: 800;
   padding-bottom: 15px;
   color: #033048;
-} 
+}
 
 h3 {
   font-size: 36px;
@@ -134,13 +136,15 @@ a.learn_more_link:hover {
     color: #1E7694;
 }
 
-.first_character { 
-  float: left; 
-  color: #606161; 
-  font-size: 75px; 
-  line-height: 60px; 
+/*ND: Nice, your hover effects are looking good. */
+
+.first_character {
+  float: left;
+  color: #606161;
+  font-size: 75px;
+  line-height: 60px;
   font-weight: 600;
-  padding-right: 8px; 
+  padding-right: 8px;
 }
 
 .photo {
@@ -161,7 +165,7 @@ hr {
     line-height:30px;
     width:25%;
     float:right;
-    padding:5px; 
+    padding:5px;
     margin-left: 20px;
 }
 
@@ -187,7 +191,7 @@ hr {
   background-color: #f9e42e;
   padding: 30px;
   clear:both;
-} 
+}
 
 .signup_button {
   font-weight: 800;
@@ -207,12 +211,13 @@ footer {
   padding: 20px 70px;
   margin: auto;
 }
+/*ND: Did you try using background cover to fill out the full width of the page?*/
 
 .icons {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    height: 20px; 
+    height: 20px;
     padding: 0px 10px;
 }
 
@@ -229,3 +234,4 @@ footer {
   clear: both;
 }
 
+/*ND: Did you try incorporating drop cases? Let me know if you had trouble with that.*/
